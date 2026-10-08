@@ -1,0 +1,1723 @@
+{
+  "dataVersion": "2026-10",
+  "ingredients": [
+    {
+      "id": "FANCY_APPLE",
+      "name": "とくせんリンゴ",
+      "emoji": "🍎",
+      "energy": 90
+    },
+    {
+      "id": "MOOMOO_MILK",
+      "name": "モーモーミルク",
+      "emoji": "🥛",
+      "energy": 98
+    },
+    {
+      "id": "GREENGRASS_SOYBEANS",
+      "name": "ワカクサ大豆",
+      "emoji": "🫘",
+      "energy": 100
+    },
+    {
+      "id": "HONEY",
+      "name": "あまいミツ",
+      "emoji": "🍯",
+      "energy": 101
+    },
+    {
+      "id": "BEAN_SAUSAGE",
+      "name": "マメミート",
+      "emoji": "🌭",
+      "energy": 103
+    },
+    {
+      "id": "WARMING_GINGER",
+      "name": "あったかジンジャー",
+      "emoji": "🫚",
+      "energy": 109
+    },
+    {
+      "id": "SNOOZY_TOMATO",
+      "name": "あんみんトマト",
+      "emoji": "🍅",
+      "energy": 110
+    },
+    {
+      "id": "FANCY_EGG",
+      "name": "とくせんエッグ",
+      "emoji": "🥚",
+      "energy": 115
+    },
+    {
+      "id": "PURE_OIL",
+      "name": "ピュアなオイル",
+      "emoji": "🫒",
+      "energy": 121
+    },
+    {
+      "id": "SOFT_POTATO",
+      "name": "ほっこりポテト",
+      "emoji": "🥔",
+      "energy": 124
+    },
+    {
+      "id": "FIERY_HERB",
+      "name": "げきからハーブ",
+      "emoji": "🌶️",
+      "energy": 130
+    },
+    {
+      "id": "GREENGRASS_CORN",
+      "name": "ワカクサコーン",
+      "emoji": "🌽",
+      "energy": 140
+    },
+    {
+      "id": "SOOTHING_CACAO",
+      "name": "リラックスカカオ",
+      "emoji": "🍫",
+      "energy": 151
+    },
+    {
+      "id": "ROUSING_COFFEE",
+      "name": "めざましコーヒー",
+      "emoji": "☕️",
+      "energy": 153
+    },
+    {
+      "id": "GLOSSY_AVOCADO",
+      "name": "つやつやアボカド",
+      "emoji": "🥑",
+      "energy": 162
+    },
+    {
+      "id": "TASTY_MUSHROOM",
+      "name": "あじわいキノコ",
+      "emoji": "🍄",
+      "energy": 167
+    },
+    {
+      "id": "LARGE_LEEK",
+      "name": "ふといながねぎ",
+      "emoji": "🥬",
+      "energy": 185
+    },
+    {
+      "id": "PLUMP_PUMPKIN",
+      "name": "ずっしりカボチャ",
+      "emoji": "🎃",
+      "energy": 250
+    },
+    {
+      "id": "SLOWPOKE_TAIL",
+      "name": "おいしいシッポ",
+      "emoji": "🍖",
+      "energy": 342
+    }
+  ],
+  "recipes": [
+    {
+      "id": "FANCY_APPLE_CURRY",
+      "name": "とくせんリンゴカレー",
+      "nameEn": "Fancy Apple Curry",
+      "category": "curry",
+      "bonusPercent": 18.7,
+      "ingredients": [
+        {
+          "id": "FANCY_APPLE",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "id": "SIMPLE_CHOWDER",
+      "name": "たんじゅんホワイトシチュー",
+      "nameEn": "Simple Chowder",
+      "category": "curry",
+      "bonusPercent": 18.7,
+      "ingredients": [
+        {
+          "id": "MOOMOO_MILK",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "id": "MILD_HONEY_CURRY",
+      "name": "あまいミツカレー",
+      "nameEn": "Mild Honey Curry",
+      "category": "curry",
+      "bonusPercent": 18.7,
+      "ingredients": [
+        {
+          "id": "HONEY",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "id": "BEANBURGER_CURRY",
+      "name": "マメバーグカレー",
+      "nameEn": "Beanburger Curry",
+      "category": "curry",
+      "bonusPercent": 18.7,
+      "ingredients": [
+        {
+          "id": "BEAN_SAUSAGE",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "id": "HEARTY_CHEESEBURGER_CURRY",
+      "name": "満腹チーズバーグカレー",
+      "nameEn": "Hearty Cheeseburger Curry",
+      "category": "curry",
+      "bonusPercent": 18.77,
+      "ingredients": [
+        {
+          "id": "MOOMOO_MILK",
+          "count": 8
+        },
+        {
+          "id": "BEAN_SAUSAGE",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "DROUGHT_KATSU_CURRY",
+      "name": "ひでりカツレツカレー",
+      "nameEn": "\"Drought\" Katsu Curry",
+      "category": "curry",
+      "bonusPercent": 18.77,
+      "ingredients": [
+        {
+          "id": "BEAN_SAUSAGE",
+          "count": 10
+        },
+        {
+          "id": "PURE_OIL",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "SOLAR_POWER_TOMATO_CURRY",
+      "name": "サンパワートマトカレー",
+      "nameEn": "\"Solar Power\" Tomato Curry",
+      "category": "curry",
+      "bonusPercent": 18.77,
+      "ingredients": [
+        {
+          "id": "SNOOZY_TOMATO",
+          "count": 10
+        },
+        {
+          "id": "FIERY_HERB",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "MELTY_OMELETTE_CURRY",
+      "name": "とけるオムカレー",
+      "nameEn": "Melty Omelette Curry",
+      "category": "curry",
+      "bonusPercent": 18.77,
+      "ingredients": [
+        {
+          "id": "FANCY_EGG",
+          "count": 10
+        },
+        {
+          "id": "SNOOZY_TOMATO",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "id": "SOFT_POTATO_CHOWDER",
+      "name": "ほっこりホワイトシチュー",
+      "nameEn": "Soft Potato Chowder",
+      "category": "curry",
+      "bonusPercent": 20.51,
+      "ingredients": [
+        {
+          "id": "MOOMOO_MILK",
+          "count": 10
+        },
+        {
+          "id": "SOFT_POTATO",
+          "count": 8
+        },
+        {
+          "id": "TASTY_MUSHROOM",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "BULK_UP_BEAN_CURRY",
+      "name": "ビルドアップマメカレー",
+      "nameEn": "\"Bulk Up\" Bean Curry",
+      "category": "curry",
+      "bonusPercent": 20.51,
+      "ingredients": [
+        {
+          "id": "GREENGRASS_SOYBEANS",
+          "count": 12
+        },
+        {
+          "id": "BEAN_SAUSAGE",
+          "count": 6
+        },
+        {
+          "id": "FIERY_HERB",
+          "count": 4
+        },
+        {
+          "id": "FANCY_EGG",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "SPORE_MUSHROOM_CURRY",
+      "name": "キノコのほうしカレー",
+      "nameEn": "\"Spore\" Mushroom Curry",
+      "category": "curry",
+      "bonusPercent": 20.51,
+      "ingredients": [
+        {
+          "id": "TASTY_MUSHROOM",
+          "count": 14
+        },
+        {
+          "id": "SOFT_POTATO",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "id": "EGG_BOMB_CURRY",
+      "name": "おやこあいカレー",
+      "nameEn": "\"Egg Bomb\" Curry",
+      "category": "curry",
+      "bonusPercent": 25.0,
+      "ingredients": [
+        {
+          "id": "HONEY",
+          "count": 12
+        },
+        {
+          "id": "FANCY_APPLE",
+          "count": 11
+        },
+        {
+          "id": "FANCY_EGG",
+          "count": 8
+        },
+        {
+          "id": "SOFT_POTATO",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "LIMBER_CORN_STEW",
+      "name": "じゅうなんコーンシチュー",
+      "nameEn": "\"Limber\" Corn Stew",
+      "category": "curry",
+      "bonusPercent": 25.0,
+      "ingredients": [
+        {
+          "id": "GREENGRASS_CORN",
+          "count": 14
+        },
+        {
+          "id": "MOOMOO_MILK",
+          "count": 8
+        },
+        {
+          "id": "SOFT_POTATO",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "DIZZY_PUNCH_SPICY_CURRY",
+      "name": "ピヨピヨパンチ辛口カレー",
+      "nameEn": "\"Dizzy Punch\" Spicy Curry",
+      "category": "curry",
+      "bonusPercent": 35.0,
+      "ingredients": [
+        {
+          "id": "ROUSING_COFFEE",
+          "count": 11
+        },
+        {
+          "id": "FIERY_HERB",
+          "count": 11
+        },
+        {
+          "id": "HONEY",
+          "count": 11
+        }
+      ]
+    },
+    {
+      "id": "SPICY_LEEK_CURRY",
+      "name": "からくちネギもりカレー",
+      "nameEn": "Spicy Leek Curry",
+      "category": "curry",
+      "bonusPercent": 25.0,
+      "ingredients": [
+        {
+          "id": "LARGE_LEEK",
+          "count": 14
+        },
+        {
+          "id": "WARMING_GINGER",
+          "count": 10
+        },
+        {
+          "id": "FIERY_HERB",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "NINJA_CURRY",
+      "name": "ニンジャカレー",
+      "nameEn": "Ninja Curry",
+      "category": "curry",
+      "bonusPercent": 48.0,
+      "ingredients": [
+        {
+          "id": "GREENGRASS_SOYBEANS",
+          "count": 24
+        },
+        {
+          "id": "BEAN_SAUSAGE",
+          "count": 9
+        },
+        {
+          "id": "LARGE_LEEK",
+          "count": 12
+        },
+        {
+          "id": "TASTY_MUSHROOM",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "GRILLED_TAIL_CURRY",
+      "name": "あぶりテールカレー",
+      "nameEn": "Grilled Tail Curry",
+      "category": "curry",
+      "bonusPercent": 25.0,
+      "ingredients": [
+        {
+          "id": "SLOWPOKE_TAIL",
+          "count": 8
+        },
+        {
+          "id": "FIERY_HERB",
+          "count": 25
+        }
+      ]
+    },
+    {
+      "id": "DREAM_EATER_BUTTER_CURRY",
+      "name": "ぜったいねむりバターカレー",
+      "nameEn": "\"Dream Eater\" Butter Curry",
+      "category": "curry",
+      "bonusPercent": 35.0,
+      "ingredients": [
+        {
+          "id": "SOFT_POTATO",
+          "count": 18
+        },
+        {
+          "id": "SNOOZY_TOMATO",
+          "count": 15
+        },
+        {
+          "id": "SOOTHING_CACAO",
+          "count": 12
+        },
+        {
+          "id": "MOOMOO_MILK",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "id": "INFERNO_CORN_KEEMA_CURRY",
+      "name": "れんごくコーンキーマカレー",
+      "nameEn": "\"Inferno\" Corn Keema Curry",
+      "category": "curry",
+      "bonusPercent": 48.0,
+      "ingredients": [
+        {
+          "id": "FIERY_HERB",
+          "count": 27
+        },
+        {
+          "id": "BEAN_SAUSAGE",
+          "count": 24
+        },
+        {
+          "id": "GREENGRASS_CORN",
+          "count": 14
+        },
+        {
+          "id": "WARMING_GINGER",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "id": "HIDDEN_POWER_PERK_UP_STEW",
+      "name": "めざめるパワーシチュー",
+      "nameEn": "\"Hidden Power\" Perk-Up Stew",
+      "category": "curry",
+      "bonusPercent": 61.0,
+      "ingredients": [
+        {
+          "id": "GREENGRASS_SOYBEANS",
+          "count": 28
+        },
+        {
+          "id": "SNOOZY_TOMATO",
+          "count": 25
+        },
+        {
+          "id": "TASTY_MUSHROOM",
+          "count": 23
+        },
+        {
+          "id": "ROUSING_COFFEE",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "id": "CUT_SUKIYAKI_CURRY",
+      "name": "いあいぎりすき焼きカレー",
+      "nameEn": "\"Cut\" Sukiyaki Curry",
+      "category": "curry",
+      "bonusPercent": 61.0,
+      "ingredients": [
+        {
+          "id": "LARGE_LEEK",
+          "count": 27
+        },
+        {
+          "id": "BEAN_SAUSAGE",
+          "count": 26
+        },
+        {
+          "id": "HONEY",
+          "count": 26
+        },
+        {
+          "id": "FANCY_EGG",
+          "count": 22
+        }
+      ]
+    },
+    {
+      "id": "ROLE_PLAY_PUMPKABOO_STEW",
+      "name": "なりきりバケッチャシチュー",
+      "nameEn": "\"Role Play\" Pumpkaboo Stew",
+      "category": "curry",
+      "bonusPercent": 48.0,
+      "ingredients": [
+        {
+          "id": "PLUMP_PUMPKIN",
+          "count": 10
+        },
+        {
+          "id": "BEAN_SAUSAGE",
+          "count": 16
+        },
+        {
+          "id": "SOFT_POTATO",
+          "count": 18
+        },
+        {
+          "id": "TASTY_MUSHROOM",
+          "count": 25
+        }
+      ]
+    },
+    {
+      "id": "OVERGROW_AVOCADO_GRATIN",
+      "name": "しんりょくアボカドグラタン",
+      "nameEn": "\"Overgrow\" Avocado Gratin",
+      "category": "curry",
+      "bonusPercent": 78.0,
+      "ingredients": [
+        {
+          "id": "GLOSSY_AVOCADO",
+          "count": 22
+        },
+        {
+          "id": "SOFT_POTATO",
+          "count": 20
+        },
+        {
+          "id": "MOOMOO_MILK",
+          "count": 41
+        },
+        {
+          "id": "PURE_OIL",
+          "count": 32
+        }
+      ]
+    },
+    {
+      "id": "GREENGRASS_CURRY_BUN",
+      "name": "ワカクサカレーパン",
+      "nameEn": "Greengrass Curry Bun",
+      "category": "curry",
+      "bonusPercent": 48.0,
+      "ingredients": [
+        {
+          "id": "WARMING_GINGER",
+          "count": 20
+        },
+        {
+          "id": "FIERY_HERB",
+          "count": 20
+        },
+        {
+          "id": "GREENGRASS_SOYBEANS",
+          "count": 8
+        },
+        {
+          "id": "PURE_OIL",
+          "count": 15
+        }
+      ]
+    },
+    {
+      "id": "BOUNCE_CURRY_UDON",
+      "name": "とびはねるカレーうどん",
+      "nameEn": "\"Bounce\" Curry Udon",
+      "category": "curry",
+      "bonusPercent": 78.0,
+      "ingredients": [
+        {
+          "id": "WARMING_GINGER",
+          "count": 39
+        },
+        {
+          "id": "TASTY_MUSHROOM",
+          "count": 31
+        },
+        {
+          "id": "FIERY_HERB",
+          "count": 22
+        },
+        {
+          "id": "BEAN_SAUSAGE",
+          "count": 20
+        }
+      ]
+    },
+    {
+      "id": "FANCY_APPLE_SALAD",
+      "name": "とくせんリンゴサラダ",
+      "nameEn": "Fancy Apple Salad",
+      "category": "salad",
+      "bonusPercent": 18.7,
+      "ingredients": [
+        {
+          "id": "FANCY_APPLE",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "BEAN_HAM_SALAD",
+      "name": "マメハムサラダ",
+      "nameEn": "Bean Ham Salad",
+      "category": "salad",
+      "bonusPercent": 18.7,
+      "ingredients": [
+        {
+          "id": "BEAN_SAUSAGE",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "SNOOZY_TOMATO_SALAD",
+      "name": "あんみんトマトサラダ",
+      "nameEn": "Snoozy Tomato Salad",
+      "category": "salad",
+      "bonusPercent": 18.7,
+      "ingredients": [
+        {
+          "id": "SNOOZY_TOMATO",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "SNOW_CLOAK_CAESAR_SALAD",
+      "name": "ゆきかきシーザーサラダ",
+      "nameEn": "\"Snow Cloak\" Caesar Salad",
+      "category": "salad",
+      "bonusPercent": 18.77,
+      "ingredients": [
+        {
+          "id": "MOOMOO_MILK",
+          "count": 10
+        },
+        {
+          "id": "BEAN_SAUSAGE",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "id": "WATER_VEIL_TOFU_SALAD",
+      "name": "うるおいとうふサラダ",
+      "nameEn": "\"Water Veil\" Tofu Salad",
+      "category": "salad",
+      "bonusPercent": 25.0,
+      "ingredients": [
+        {
+          "id": "GREENGRASS_SOYBEANS",
+          "count": 15
+        },
+        {
+          "id": "SNOOZY_TOMATO",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "id": "HEAT_WAVE_TOFU_SALAD",
+      "name": "ねっぷうとうふサラダ",
+      "nameEn": "\"Heat Wave\" Tofu Salad",
+      "category": "salad",
+      "bonusPercent": 18.77,
+      "ingredients": [
+        {
+          "id": "GREENGRASS_SOYBEANS",
+          "count": 10
+        },
+        {
+          "id": "FIERY_HERB",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "id": "DAZZLING_APPLE_CHEESE_SALAD",
+      "name": "メロメロりんごのチーズサラダ",
+      "nameEn": "\"Dazzling\" Apple Cheese Salad",
+      "category": "salad",
+      "bonusPercent": 20.51,
+      "ingredients": [
+        {
+          "id": "FANCY_APPLE",
+          "count": 15
+        },
+        {
+          "id": "MOOMOO_MILK",
+          "count": 5
+        },
+        {
+          "id": "PURE_OIL",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FURY_ATTACK_CORN_SALAD",
+      "name": "みだれづきコーンサラダ",
+      "nameEn": "\"Fury Attack\" Corn Salad",
+      "category": "salad",
+      "bonusPercent": 25.0,
+      "ingredients": [
+        {
+          "id": "GREENGRASS_CORN",
+          "count": 9
+        },
+        {
+          "id": "PURE_OIL",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "MOOMOO_CAPRESE_SALAD",
+      "name": "モーモーカプレーゼ",
+      "nameEn": "Moomoo Caprese Salad",
+      "category": "salad",
+      "bonusPercent": 20.51,
+      "ingredients": [
+        {
+          "id": "MOOMOO_MILK",
+          "count": 12
+        },
+        {
+          "id": "SNOOZY_TOMATO",
+          "count": 6
+        },
+        {
+          "id": "PURE_OIL",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "IMMUNITY_LEEK_SALAD",
+      "name": "めんえきネギサラダ",
+      "nameEn": "\"Immunity\" Leek Salad",
+      "category": "salad",
+      "bonusPercent": 18.77,
+      "ingredients": [
+        {
+          "id": "LARGE_LEEK",
+          "count": 10
+        },
+        {
+          "id": "WARMING_GINGER",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "SUPERPOWER_EXTREME_SALAD",
+      "name": "ばかぢからワイルドサラダ",
+      "nameEn": "\"Superpower\" Extreme Salad",
+      "category": "salad",
+      "bonusPercent": 20.51,
+      "ingredients": [
+        {
+          "id": "BEAN_SAUSAGE",
+          "count": 9
+        },
+        {
+          "id": "WARMING_GINGER",
+          "count": 6
+        },
+        {
+          "id": "FANCY_EGG",
+          "count": 5
+        },
+        {
+          "id": "SOFT_POTATO",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "CONTRARY_CHOCOLATE_MEAT_SALAD",
+      "name": "ムラっけチョコミートサラダ",
+      "nameEn": "\"Contrary\" Chocolate Meat Salad",
+      "category": "salad",
+      "bonusPercent": 20.51,
+      "ingredients": [
+        {
+          "id": "SOOTHING_CACAO",
+          "count": 14
+        },
+        {
+          "id": "BEAN_SAUSAGE",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "id": "GLUTTONY_POTATO_SALAD",
+      "name": "くいしんぼうポテトサラダ",
+      "nameEn": "\"Gluttony\" Potato Salad",
+      "category": "salad",
+      "bonusPercent": 25.0,
+      "ingredients": [
+        {
+          "id": "SOFT_POTATO",
+          "count": 14
+        },
+        {
+          "id": "FANCY_EGG",
+          "count": 9
+        },
+        {
+          "id": "BEAN_SAUSAGE",
+          "count": 7
+        },
+        {
+          "id": "FANCY_APPLE",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "id": "OVERHEAT_GINGER_SALAD",
+      "name": "オーバーヒートサラダ",
+      "nameEn": "\"Overheat\" Ginger Salad",
+      "category": "salad",
+      "bonusPercent": 25.0,
+      "ingredients": [
+        {
+          "id": "FIERY_HERB",
+          "count": 17
+        },
+        {
+          "id": "WARMING_GINGER",
+          "count": 10
+        },
+        {
+          "id": "SNOOZY_TOMATO",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "SPORE_MUSHROOM_SALAD",
+      "name": "キノコのほうしサラダ",
+      "nameEn": "\"Spore\" Mushroom Salad",
+      "category": "salad",
+      "bonusPercent": 25.0,
+      "ingredients": [
+        {
+          "id": "TASTY_MUSHROOM",
+          "count": 17
+        },
+        {
+          "id": "SNOOZY_TOMATO",
+          "count": 8
+        },
+        {
+          "id": "PURE_OIL",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "CALM_MIND_FRUIT_SALAD",
+      "name": "めいそうスイートサラダ",
+      "nameEn": "\"Calm Mind\" Fruit Salad",
+      "category": "salad",
+      "bonusPercent": 48.0,
+      "ingredients": [
+        {
+          "id": "FANCY_APPLE",
+          "count": 21
+        },
+        {
+          "id": "HONEY",
+          "count": 16
+        },
+        {
+          "id": "GREENGRASS_CORN",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "id": "SLOWPOKE_TAIL_PEPPER_SALAD",
+      "name": "ヤドンテールのペッパーサラダ",
+      "nameEn": "Slowpoke Tail Pepper Salad",
+      "category": "salad",
+      "bonusPercent": 25.0,
+      "ingredients": [
+        {
+          "id": "SLOWPOKE_TAIL",
+          "count": 10
+        },
+        {
+          "id": "FIERY_HERB",
+          "count": 10
+        },
+        {
+          "id": "PURE_OIL",
+          "count": 15
+        }
+      ]
+    },
+    {
+      "id": "NINJA_SALAD",
+      "name": "ニンジャサラダ",
+      "nameEn": "Ninja Salad",
+      "category": "salad",
+      "bonusPercent": 48.0,
+      "ingredients": [
+        {
+          "id": "LARGE_LEEK",
+          "count": 15
+        },
+        {
+          "id": "GREENGRASS_SOYBEANS",
+          "count": 19
+        },
+        {
+          "id": "TASTY_MUSHROOM",
+          "count": 12
+        },
+        {
+          "id": "WARMING_GINGER",
+          "count": 11
+        }
+      ]
+    },
+    {
+      "id": "CROSS_CHOP_SALAD",
+      "name": "クロスチョップドサラダ",
+      "nameEn": "\"Cross Chop\" Salad",
+      "category": "salad",
+      "bonusPercent": 35.0,
+      "ingredients": [
+        {
+          "id": "FANCY_EGG",
+          "count": 20
+        },
+        {
+          "id": "BEAN_SAUSAGE",
+          "count": 15
+        },
+        {
+          "id": "GREENGRASS_CORN",
+          "count": 11
+        },
+        {
+          "id": "SNOOZY_TOMATO",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "id": "GREENGRASS_SALAD",
+      "name": "ワカクササラダ",
+      "nameEn": "Greengrass Salad",
+      "category": "salad",
+      "bonusPercent": 48.0,
+      "ingredients": [
+        {
+          "id": "PURE_OIL",
+          "count": 22
+        },
+        {
+          "id": "GREENGRASS_CORN",
+          "count": 17
+        },
+        {
+          "id": "SNOOZY_TOMATO",
+          "count": 14
+        },
+        {
+          "id": "SOFT_POTATO",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "id": "PETAL_BLIZZARD_LAYERED_SALAD",
+      "name": "はなふぶきミモザサラダ",
+      "nameEn": "\"Petal Blizzard\" Layered Salad",
+      "category": "salad",
+      "bonusPercent": 48.0,
+      "ingredients": [
+        {
+          "id": "FANCY_EGG",
+          "count": 25
+        },
+        {
+          "id": "PURE_OIL",
+          "count": 17
+        },
+        {
+          "id": "SOFT_POTATO",
+          "count": 15
+        },
+        {
+          "id": "BEAN_SAUSAGE",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "id": "APPLE_ACID_YOGURT_DRESSED_SALAD",
+      "name": "りんごさんヨーグルトサラダ",
+      "nameEn": "\"Apple Acid\" Yogurt-Dressed Salad",
+      "category": "salad",
+      "bonusPercent": 78.0,
+      "ingredients": [
+        {
+          "id": "FANCY_EGG",
+          "count": 35
+        },
+        {
+          "id": "FANCY_APPLE",
+          "count": 28
+        },
+        {
+          "id": "SNOOZY_TOMATO",
+          "count": 23
+        },
+        {
+          "id": "MOOMOO_MILK",
+          "count": 18
+        }
+      ]
+    },
+    {
+      "id": "DEFIANT_COFFEE_DRESSED_SALAD",
+      "name": "まけんきコーヒーサラダ",
+      "nameEn": "\"Defiant\" Coffee-Dressed Salad",
+      "category": "salad",
+      "bonusPercent": 61.0,
+      "ingredients": [
+        {
+          "id": "ROUSING_COFFEE",
+          "count": 28
+        },
+        {
+          "id": "BEAN_SAUSAGE",
+          "count": 28
+        },
+        {
+          "id": "PURE_OIL",
+          "count": 22
+        },
+        {
+          "id": "SOFT_POTATO",
+          "count": 22
+        }
+      ]
+    },
+    {
+      "id": "LUSCIOUS_AVOCADO_SALAD",
+      "name": "くだけるアボカドサラダ",
+      "nameEn": "Luscious Avocado Salad",
+      "category": "salad",
+      "bonusPercent": 35.0,
+      "ingredients": [
+        {
+          "id": "GLOSSY_AVOCADO",
+          "count": 14
+        },
+        {
+          "id": "GREENGRASS_SOYBEANS",
+          "count": 18
+        },
+        {
+          "id": "PURE_OIL",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "id": "BULLDOZE_GUACAMOLE_AND_CHIPS",
+      "name": "じならしワカモレチップス",
+      "nameEn": "\"Bulldoze\" Guacamole and Chips",
+      "category": "salad",
+      "bonusPercent": 78.0,
+      "ingredients": [
+        {
+          "id": "GLOSSY_AVOCADO",
+          "count": 28
+        },
+        {
+          "id": "GREENGRASS_CORN",
+          "count": 25
+        },
+        {
+          "id": "FIERY_HERB",
+          "count": 30
+        },
+        {
+          "id": "GREENGRASS_SOYBEANS",
+          "count": 22
+        }
+      ]
+    },
+    {
+      "id": "SCALD_CHUNKY_SALAD",
+      "name": "ごろごろねっとうサラダ",
+      "nameEn": "\"Scald\" Chunky Salad",
+      "category": "salad",
+      "bonusPercent": 61.0,
+      "ingredients": [
+        {
+          "id": "PLUMP_PUMPKIN",
+          "count": 20
+        },
+        {
+          "id": "SOFT_POTATO",
+          "count": 30
+        },
+        {
+          "id": "GREENGRASS_CORN",
+          "count": 18
+        },
+        {
+          "id": "TASTY_MUSHROOM",
+          "count": 27
+        }
+      ]
+    },
+    {
+      "id": "WARM_MOOMOO_MILK",
+      "name": "モーモーホットミルク",
+      "nameEn": "Warm Moomoo Milk",
+      "category": "dessert",
+      "bonusPercent": 18.7,
+      "ingredients": [
+        {
+          "id": "MOOMOO_MILK",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "id": "FANCY_APPLE_JUICE",
+      "name": "とくせんリンゴジュース",
+      "nameEn": "Fancy Apple Juice",
+      "category": "dessert",
+      "bonusPercent": 18.7,
+      "ingredients": [
+        {
+          "id": "FANCY_APPLE",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "CRAFT_SODA_POP",
+      "name": "クラフトサイコソーダ",
+      "nameEn": "Craft Soda Pop",
+      "category": "dessert",
+      "bonusPercent": 18.7,
+      "ingredients": [
+        {
+          "id": "HONEY",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "id": "LUCKY_CHANT_APPLE_PIE",
+      "name": "ねがいごとアップルパイ",
+      "nameEn": "\"Lucky Chant\" Apple Pie",
+      "category": "dessert",
+      "bonusPercent": 18.77,
+      "ingredients": [
+        {
+          "id": "FANCY_APPLE",
+          "count": 12
+        },
+        {
+          "id": "MOOMOO_MILK",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "FLUFFY_SWEET_POTATOES",
+      "name": "じゅくせいスイートポテト",
+      "nameEn": "\"Fluffy\" Sweet Potatoes",
+      "category": "dessert",
+      "bonusPercent": 18.77,
+      "ingredients": [
+        {
+          "id": "SOFT_POTATO",
+          "count": 9
+        },
+        {
+          "id": "MOOMOO_MILK",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "EMBER_GINGER_TEA",
+      "name": "ひのこのジンジャーティー",
+      "nameEn": "\"Ember\" Ginger Tea",
+      "category": "dessert",
+      "bonusPercent": 18.77,
+      "ingredients": [
+        {
+          "id": "WARMING_GINGER",
+          "count": 9
+        },
+        {
+          "id": "FANCY_APPLE",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "id": "CLOUD_NINE_SOY_CAKE",
+      "name": "かるわざソイケーキ",
+      "nameEn": "\"Cloud Nine\" Soy Cake",
+      "category": "dessert",
+      "bonusPercent": 18.77,
+      "ingredients": [
+        {
+          "id": "FANCY_EGG",
+          "count": 8
+        },
+        {
+          "id": "GREENGRASS_SOYBEANS",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "id": "STALWART_VEGETABLE_JUICE",
+      "name": "マイペースやさいジュース",
+      "nameEn": "\"Stalwart\" Vegetable Juice",
+      "category": "dessert",
+      "bonusPercent": 18.77,
+      "ingredients": [
+        {
+          "id": "SNOOZY_TOMATO",
+          "count": 9
+        },
+        {
+          "id": "FANCY_APPLE",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "id": "BIG_MALASADA",
+      "name": "おおきいマラサダ",
+      "nameEn": "Big Malasada",
+      "category": "dessert",
+      "bonusPercent": 20.51,
+      "ingredients": [
+        {
+          "id": "PURE_OIL",
+          "count": 10
+        },
+        {
+          "id": "MOOMOO_MILK",
+          "count": 7
+        },
+        {
+          "id": "HONEY",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "id": "HUSTLE_PROTEIN_SMOOTHIE",
+      "name": "はりきりプロテインスムージー",
+      "nameEn": "\"Hustle\" Protein Smoothie",
+      "category": "dessert",
+      "bonusPercent": 20.51,
+      "ingredients": [
+        {
+          "id": "GREENGRASS_SOYBEANS",
+          "count": 15
+        },
+        {
+          "id": "SOOTHING_CACAO",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "HUGE_POWER_SOY_DONUTS",
+      "name": "ちからもちソイドーナツ",
+      "nameEn": "\"Huge Power\" Soy Donuts",
+      "category": "dessert",
+      "bonusPercent": 35.0,
+      "ingredients": [
+        {
+          "id": "PURE_OIL",
+          "count": 12
+        },
+        {
+          "id": "GREENGRASS_SOYBEANS",
+          "count": 16
+        },
+        {
+          "id": "SOOTHING_CACAO",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "id": "SWEET_SCENT_CHOCOLATE_CAKE",
+      "name": "あまいかおりチョコケーキ",
+      "nameEn": "\"Sweet Scent\" Chocolate Cake",
+      "category": "dessert",
+      "bonusPercent": 20.51,
+      "ingredients": [
+        {
+          "id": "HONEY",
+          "count": 9
+        },
+        {
+          "id": "SOOTHING_CACAO",
+          "count": 8
+        },
+        {
+          "id": "MOOMOO_MILK",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "id": "PETAL_DANCE_CHOCOLATE_TART",
+      "name": "はなびらのまいチョコタルト",
+      "nameEn": "\"Petal Dance\" Chocolate Tart",
+      "category": "dessert",
+      "bonusPercent": 25.0,
+      "ingredients": [
+        {
+          "id": "FANCY_APPLE",
+          "count": 11
+        },
+        {
+          "id": "SOOTHING_CACAO",
+          "count": 11
+        }
+      ]
+    },
+    {
+      "id": "LOVELY_KISS_SMOOTHIE",
+      "name": "あくまのキッスフルーツオレ",
+      "nameEn": "\"Lovely Kiss\" Smoothie",
+      "category": "dessert",
+      "bonusPercent": 25.0,
+      "ingredients": [
+        {
+          "id": "FANCY_APPLE",
+          "count": 11
+        },
+        {
+          "id": "MOOMOO_MILK",
+          "count": 9
+        },
+        {
+          "id": "HONEY",
+          "count": 7
+        },
+        {
+          "id": "SOOTHING_CACAO",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "STEADFAST_GINGER_COOKIES",
+      "name": "ふくつのジンジャークッキー",
+      "nameEn": "\"Steadfast\" Ginger Cookies",
+      "category": "dessert",
+      "bonusPercent": 25.0,
+      "ingredients": [
+        {
+          "id": "HONEY",
+          "count": 14
+        },
+        {
+          "id": "WARMING_GINGER",
+          "count": 12
+        },
+        {
+          "id": "SOOTHING_CACAO",
+          "count": 5
+        },
+        {
+          "id": "FANCY_EGG",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "NEROLIS_RESTORATIVE_TEA",
+      "name": "ネロリのデトックスティー",
+      "nameEn": "Neroli's Restorative Tea",
+      "category": "dessert",
+      "bonusPercent": 25.0,
+      "ingredients": [
+        {
+          "id": "WARMING_GINGER",
+          "count": 11
+        },
+        {
+          "id": "FANCY_APPLE",
+          "count": 15
+        },
+        {
+          "id": "TASTY_MUSHROOM",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "id": "EXPLOSION_POPCORN",
+      "name": "だいばくはつポップコーン",
+      "nameEn": "\"Explosion\" Popcorn",
+      "category": "dessert",
+      "bonusPercent": 35.0,
+      "ingredients": [
+        {
+          "id": "GREENGRASS_CORN",
+          "count": 15
+        },
+        {
+          "id": "PURE_OIL",
+          "count": 14
+        },
+        {
+          "id": "MOOMOO_MILK",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "id": "EARLY_BIRD_COFFEE_JELLY",
+      "name": "はやおきコーヒーゼリー",
+      "nameEn": "\"Early Bird\" Coffee Jelly",
+      "category": "dessert",
+      "bonusPercent": 35.0,
+      "ingredients": [
+        {
+          "id": "ROUSING_COFFEE",
+          "count": 16
+        },
+        {
+          "id": "MOOMOO_MILK",
+          "count": 14
+        },
+        {
+          "id": "HONEY",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "id": "MOLD_BREAKER_CORN_TIRAMISU",
+      "name": "かたやぶりコーンティラミス",
+      "nameEn": "\"Mold Breaker\" Corn Tiramisu",
+      "category": "dessert",
+      "bonusPercent": 35.0,
+      "ingredients": [
+        {
+          "id": "ROUSING_COFFEE",
+          "count": 14
+        },
+        {
+          "id": "GREENGRASS_CORN",
+          "count": 14
+        },
+        {
+          "id": "MOOMOO_MILK",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "id": "JIGGLYPUFFS_FRUITY_FLAN",
+      "name": "プリンのプリンアラモード",
+      "nameEn": "Jigglypuff's Fruity Flan",
+      "category": "dessert",
+      "bonusPercent": 35.0,
+      "ingredients": [
+        {
+          "id": "HONEY",
+          "count": 20
+        },
+        {
+          "id": "FANCY_EGG",
+          "count": 15
+        },
+        {
+          "id": "MOOMOO_MILK",
+          "count": 10
+        },
+        {
+          "id": "FANCY_APPLE",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "id": "TEATIME_CORN_SCONES",
+      "name": "おちゃかいコーンスコーン",
+      "nameEn": "\"Teatime\" Corn Scones",
+      "category": "dessert",
+      "bonusPercent": 48.0,
+      "ingredients": [
+        {
+          "id": "FANCY_APPLE",
+          "count": 20
+        },
+        {
+          "id": "WARMING_GINGER",
+          "count": 20
+        },
+        {
+          "id": "GREENGRASS_CORN",
+          "count": 18
+        },
+        {
+          "id": "MOOMOO_MILK",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "id": "FLOWER_GIFT_MACARONS",
+      "name": "フラワーギフトマカロン",
+      "nameEn": "\"Flower Gift\" Macarons",
+      "category": "dessert",
+      "bonusPercent": 48.0,
+      "ingredients": [
+        {
+          "id": "SOOTHING_CACAO",
+          "count": 25
+        },
+        {
+          "id": "FANCY_EGG",
+          "count": 25
+        },
+        {
+          "id": "HONEY",
+          "count": 17
+        },
+        {
+          "id": "MOOMOO_MILK",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "id": "ZING_ZAP_SPICED_COLA",
+      "name": "スパークスパイスコーラ",
+      "nameEn": "\"Zing Zap\" Spiced Cola",
+      "category": "dessert",
+      "bonusPercent": 61.0,
+      "ingredients": [
+        {
+          "id": "FANCY_APPLE",
+          "count": 35
+        },
+        {
+          "id": "WARMING_GINGER",
+          "count": 20
+        },
+        {
+          "id": "LARGE_LEEK",
+          "count": 20
+        },
+        {
+          "id": "ROUSING_COFFEE",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "id": "CLODSIRE_ECLAIR",
+      "name": "ドオーのエクレア",
+      "nameEn": "Clodsire Éclair",
+      "category": "dessert",
+      "bonusPercent": 61.0,
+      "ingredients": [
+        {
+          "id": "SOOTHING_CACAO",
+          "count": 30
+        },
+        {
+          "id": "MOOMOO_MILK",
+          "count": 26
+        },
+        {
+          "id": "ROUSING_COFFEE",
+          "count": 24
+        },
+        {
+          "id": "HONEY",
+          "count": 22
+        }
+      ]
+    },
+    {
+      "id": "HONEY_GATHER_CHOCOLATE_WAFFLES",
+      "name": "みつあつめチョコワッフル",
+      "nameEn": "\"Honey Gather\" Chocolate Waffles",
+      "category": "dessert",
+      "bonusPercent": 78.0,
+      "ingredients": [
+        {
+          "id": "HONEY",
+          "count": 38
+        },
+        {
+          "id": "GREENGRASS_CORN",
+          "count": 28
+        },
+        {
+          "id": "PURE_OIL",
+          "count": 28
+        },
+        {
+          "id": "SOOTHING_CACAO",
+          "count": 21
+        }
+      ]
+    },
+    {
+      "id": "SCARY_FACE_PANCAKES",
+      "name": "ドキドキこわいかおパンケーキ",
+      "nameEn": "\"Scary Face\" Pancakes",
+      "category": "dessert",
+      "bonusPercent": 78.0,
+      "ingredients": [
+        {
+          "id": "PLUMP_PUMPKIN",
+          "count": 18
+        },
+        {
+          "id": "FANCY_EGG",
+          "count": 24
+        },
+        {
+          "id": "HONEY",
+          "count": 32
+        },
+        {
+          "id": "SNOOZY_TOMATO",
+          "count": 29
+        }
+      ]
+    },
+    {
+      "id": "LEAF_TORNADO_SMOOTHIE",
+      "name": "グラスミキサースムージー",
+      "nameEn": "\"Leaf Tornado\" Smoothie",
+      "category": "dessert",
+      "bonusPercent": 35.0,
+      "ingredients": [
+        {
+          "id": "GLOSSY_AVOCADO",
+          "count": 18
+        },
+        {
+          "id": "SNOOZY_TOMATO",
+          "count": 16
+        },
+        {
+          "id": "MOOMOO_MILK",
+          "count": 14
+        }
+      ]
+    }
+  ]
+}
