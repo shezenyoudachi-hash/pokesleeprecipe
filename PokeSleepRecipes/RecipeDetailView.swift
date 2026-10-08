@@ -22,7 +22,7 @@ struct RecipeDetailView: View {
                 ForEach(recipe.ingredients, id: \.id) { item in
                     if let ing = store.ingredient(item.id) {
                         HStack {
-                            Text(ing.emoji).font(.title2).frame(width: 36)
+                            IngredientIcon(id: ing.id, size: 36)
                             VStack(alignment: .leading) {
                                 Text(ing.name)
                                 Text("1個 \(ing.energy) エナジー")

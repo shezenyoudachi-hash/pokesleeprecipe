@@ -2,7 +2,7 @@ import SwiftUI
 import UIKit
 
 /// 料理のイラスト。
-/// Assets に「レシピID」と同じ名前の画像（例: NINJA_CURRY）があればそれを表示し、
+/// アセットに「レシピID」と同じ名前の画像（例: NINJA_CURRY）があればそれを表示し、
 /// なければカテゴリの器 + 食材で自動生成したイラストを表示する。
 struct DishIllustration: View {
     @Environment(RecipeStore.self) private var store
@@ -16,7 +16,7 @@ struct DishIllustration: View {
                     .resizable()
                     .scaledToFill()
             } else {
-                GeneratedDish(recipe: recipe, emojis: plating, size: size)
+                GeneratedDish(recipe: recipe, toppingIDs: plating, size: size)
             }
         }
         .frame(width: size, height: size)
@@ -24,15 +24,14 @@ struct DishIllustration: View {
         .accessibilityLabel("\(recipe.name)のイラスト")
     }
 
-    /// 盛り付ける食材の絵文字。使う個数が多い食材ほど多く乗せる（最大7個）
+    /// 盛り付ける食材のID。使う個数が多い食材ほど多く乗せる（最大7個）
     private var plating: [String] {
         let total = max(recipe.totalCount, 1)
         let slots = min(7, max(3, recipe.ingredients.count + 2))
         var result: [String] = []
         for item in recipe.ingredients.sorted(by: { $0.count > $1.count }) {
-            guard let ing = store.ingredient(item.id) else { continue }
             let n = max(1, Int((Double(item.count) / Double(total) * Double(slots)).rounded()))
-            result += Array(repeating: ing.emoji, count: n)
+            result += Array(repeating: item.id, count: n)
         }
         // 食材の種類が交互に並ぶように混ぜる
         return Array(interleave(result).prefix(slots))
@@ -56,11 +55,32 @@ struct DishIllustration: View {
     }
 }
 
+// MARK: - 食材アイコン
+
+/// 食材のアイコン。アセットに食材IDと同じ名前の画像（例: FANCY_APPLE）があればそれを、なければ絵文字を表示する
+struct IngredientIcon: View {
+    @Environment(RecipeStore.self) private var store
+    let id: String
+    var size: CGFloat = 24
+
+    var body: some View {
+        Group {
+            if UIImage(named: id) != nil {
+                Image(id).resizable().scaledToFit()
+            } else {
+                Text(store.ingredient(id)?.emoji ?? "❓")
+                    .font(.system(size: size * 0.82))
+            }
+        }
+        .frame(width: size, height: size)
+    }
+}
+
 // MARK: - 自動生成イラスト
 
 private struct GeneratedDish: View {
     let recipe: Recipe
-    let emojis: [String]
+    let toppingIDs: [String]
     let size: CGFloat
 
     /// レシピIDから決まる疑似乱数（毎回同じ盛り付けになる）
@@ -149,11 +169,10 @@ private struct GeneratedDish: View {
     private var toppings: some View {
         let positions = layout(for: recipe.category)
         return ZStack {
-            ForEach(Array(emojis.enumerated()), id: \.offset) { i, emoji in
+            ForEach(Array(toppingIDs.enumerated()), id: \.offset) { i, id in
                 let p = positions[i % positions.count]
                 let tilt = Double((seed >> (i % 8)) % 41) - 20
-                Text(emoji)
-                    .font(.system(size: size * 0.2))
+                IngredientIcon(id: id, size: size * 0.22)
                     .rotationEffect(.degrees(tilt))
                     .offset(x: p.x * size, y: p.y * size)
             }

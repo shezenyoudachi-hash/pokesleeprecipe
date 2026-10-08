@@ -3,3 +3,6 @@ xcuserdata/
 *.xcuserstate
 DerivedData/
 build/
+
+# ゲームのスクショから切り出した画像（著作物のため公開リポジトリには入れない）
+PokeSleepRecipes/GameArt.xcassets/

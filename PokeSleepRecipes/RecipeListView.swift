@@ -178,9 +178,12 @@ struct IngredientChips: View {
         HStack(spacing: 8) {
             ForEach(recipe.ingredients, id: \.id) { item in
                 if let ing = store.ingredient(item.id) {
-                    Text("\(ing.emoji)×\(item.count)")
-                        .font(.subheadline.monospacedDigit())
-                        .accessibilityLabel("\(ing.name) \(item.count)個")
+                    HStack(spacing: 2) {
+                        IngredientIcon(id: ing.id, size: 22)
+                        Text("×\(item.count)").font(.subheadline.monospacedDigit())
+                    }
+                    .accessibilityElement(children: .ignore)
+                    .accessibilityLabel("\(ing.name) \(item.count)個")
                 }
             }
         }

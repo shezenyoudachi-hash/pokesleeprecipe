@@ -36,7 +36,7 @@ struct FilterSheet: View {
                                 if on { selectedIngredients.remove(ing.id) } else { selectedIngredients.insert(ing.id) }
                             } label: {
                                 VStack(spacing: 2) {
-                                    Text(ing.emoji).font(.title2)
+                                    IngredientIcon(id: ing.id, size: 34)
                                     Text(ing.name).font(.caption2).lineLimit(1).minimumScaleFactor(0.7)
                                 }
                                 .frame(maxWidth: .infinity, minHeight: 56)
