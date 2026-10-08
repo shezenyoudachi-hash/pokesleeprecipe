@@ -100,11 +100,7 @@ struct RecipeDetailView: View {
     private var header: some View {
         Section {
             VStack(spacing: 10) {
-                Image(systemName: recipe.category.symbol)
-                    .font(.system(size: 34))
-                    .foregroundStyle(.white)
-                    .frame(width: 72, height: 72)
-                    .background(recipe.category.tint.gradient, in: .rect(cornerRadius: 18))
+                DishIllustration(recipe: recipe, size: 180)
                 Text(recipe.name)
                     .font(.title2.bold())
                     .multilineTextAlignment(.center)

@@ -147,11 +147,7 @@ struct RecipeRow: View {
 
     var body: some View {
         HStack(alignment: .top, spacing: 12) {
-            Image(systemName: recipe.category.symbol)
-                .font(.title3)
-                .foregroundStyle(.white)
-                .frame(width: 40, height: 40)
-                .background(recipe.category.tint.gradient, in: .rect(cornerRadius: 10))
+            DishIllustration(recipe: recipe, size: 56)
 
             VStack(alignment: .leading, spacing: 4) {
                 HStack(spacing: 4) {
